@@ -3,7 +3,7 @@ import java.util.HashSet;
 class Solution {
     public boolean containsDuplicate(int[] nums) {
 
-        if(nums.length == 00 || nums.length == 1){ // If length is 0 or 1, there can't be dupes.
+        if(nums.length == 0 || nums.length == 1){ // If length is 0 or 1, there can't be dupes.
             return false; 
         }
 
